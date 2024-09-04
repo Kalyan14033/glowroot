@@ -191,7 +191,7 @@
       <dependency>
         <groupId>com.google.guava</groupId>
         <artifactId>guava</artifactId>
-        <version>33.1.0-jre</version>
+        <version>33.2.1-jre</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
@@ -496,7 +496,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -509,7 +509,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -522,7 +522,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -693,9 +693,9 @@
             <artifactId>maven-enforcer-plugin</artifactId>
             <configuration>
               <rules>
-                <requireReleaseDeps />
-                <requireReleaseVersion />
-                <requirePluginVersions />
+                <requireReleaseDeps/>
+                <requireReleaseVersion/>
+                <requirePluginVersions/>
               </rules>
             </configuration>
           </plugin>
